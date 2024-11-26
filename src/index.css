@@ -21,7 +21,7 @@ body {
 
   }
 
-  &svg {
+  & :is(svg) {
     color: black;
   }
 
@@ -55,7 +55,6 @@ body {
   border: solid;
   border-radius: 50px;
   margin: 30px;
-  weight: px;
   height: 75px;
 
   & h2{
