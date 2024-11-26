@@ -8,12 +8,13 @@ body {
   background: white;
   width: 400px;
   height: 600px;
+  margin: auto;
   margin-top: 20px;
-  margin:auto;
   border: solid;
   display: flex;
   align-items: center;
   flex-direction: column;
+  transition: background-color ease-in-out 0.3s;
 
   &:hover {
     cursor: pointer;
